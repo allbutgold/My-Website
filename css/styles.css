@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* === Fonts === */
 @font-face {
     font-family: ralewayLight;
     src: url(../assets/fonts/Raleway/static/Raleway-Light.ttf);
@@ -38,11 +39,7 @@
     font-stretch: condensed;
 }
 
-.homeBackground {
-    width: 100%;
-    height: auto;
-}
-
+/* === Header === */
 .header {
     background-color: white;
 }
@@ -50,7 +47,7 @@
 .navTop {
     margin-left: 14%;
     margin-top: 0.4%;
-    margin-bottom: 0.5%;
+    margin-bottom: 1%;
 }
 
 .logo {
@@ -79,12 +76,19 @@
     color: rgb(178, 174, 174);
 }
 
+/* === Main === */
 .main {
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
 }
 
+.homeBackground {
+    width: 100%;
+    height: auto;
+}
+
+/* === Image Section === */
 .imageSection {
     justify-content: space-around;
     display: flex;
@@ -140,6 +144,51 @@
     font-family: ralewayLight;
     width: 72vw;
     display: flex;
+}
+
+/* === About Me === */
+.aboutMe {
+    margin-left: 14%;
+    align-content: center;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}    
+
+.aboutMeText1 {
+    margin-top: 15%;
+}
+
+.aboutMeText1 a{
+    text-decoration: none;
+}
+
+.aboutMe div img { 
+    width: 500px;
+}
+
+.aboutMe2 {
+    width: 50vw;
+}
+
+.aboutMeText2 {
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    align-content: flex-start;
+}
+
+.aboutMeText2 h2 {
+    font-size: 3rem;
+    width: 30vw;
+}
+
+.aboutMeText2 p {
+    width: 30vw;
+    margin-left: auto;    
+    text-align: left;
 }
 
 .footer {
