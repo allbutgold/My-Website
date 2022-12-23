@@ -90,7 +90,6 @@
 
 /* === Image Section === */
 .imageSection {
-    justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
@@ -120,8 +119,8 @@
 /* === Test end === */
 
 .imageSection article {
-    width: 35vw;
-/*     height: 30vh; */
+    width: 500px;
+    height: 320px;
 }
 
 .imageSection article img {
@@ -146,50 +145,7 @@
     display: flex;
 }
 
-/* === About Me === */
-.aboutMe {
-    margin-left: 14%;
-    align-content: center;
-    width: 60vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}    
 
-.aboutMeText1 {
-    margin-top: 15%;
-}
-
-.aboutMeText1 a{
-    text-decoration: none;
-}
-
-.aboutMe div img { 
-    width: 500px;
-}
-
-.aboutMe2 {
-    width: 50vw;
-}
-
-.aboutMeText2 {
-    margin-left: 15%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    align-content: flex-start;
-}
-
-.aboutMeText2 h2 {
-    font-size: 3rem;
-    width: 30vw;
-}
-
-.aboutMeText2 p {
-    width: 30vw;
-    margin-left: auto;    
-    text-align: left;
-}
 
 .footer {
     margin-top: 2%;
