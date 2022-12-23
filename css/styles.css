@@ -92,16 +92,19 @@
 .imageSection {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    justify-content: center;
+    gap: 20px;
     margin-top: 2%;
     margin: 2%;
 }
 
-/* === TEST FEATURE === images as background in anrticles, hover text centered on the article */
+/* == 4 Slot Gallery:hoverText == */
+
+/* Slot 1 */
 .gallerySlot1Box {
     width: 32vw;
     height: 18vw;
-    background-image: url(../assets/img/Landscape/IMG_2807-Edit.jpg);
+    background-image: url(../assets/img/Travel/IMG_0269.jpg);
     align-content: center;
     background-size: cover;
     color: transparent;
@@ -116,24 +119,70 @@
     font-size: 1.1rem;
     opacity: 40%;
 }
-/* === Test end === */
 
-.imageSection article {
-    width: 500px;
-    height: 320px;
+/* == Slot 2 */
+.gallerySlot2Box {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(../assets/img/Landscape/IMG_9397.jpg);
+    align-content: center;
+    background-size: cover;
+    color: transparent;
 }
 
-.imageSection article img {
-    width: 100%;
-    height: 100%;
+.gallerySlot2Box:hover {
+    font-family: MontserratMedium;
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.1rem;
+    opacity: 40%;
 }
 
-.imageSection article p {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* Slot 3 */
+.gallerySlot3Box {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(../assets/img/Landscape/IMG_2807-Edit.jpg);
+    align-content: center;
+    background-size: cover;
+    color: transparent;
 }
+
+.gallerySlot3Box:hover {
+    font-family: MontserratMedium;
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.1rem;
+    opacity: 40%;
+}
+
+/* Slot 4 */
+.gallerySlot4Box {
+    width: 32vw;
+    height: 18vw;
+    background-image: url(../assets/img/Landscape/IMG_9014-2.jpg);
+    align-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+.gallerySlot4Box:hover {
+    font-family: MontserratMedium;
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.1rem;
+    opacity: 40%;
+}
+
+/* === 4 Slot Gallery end === */
+
 
 .galleryTitle {
     text-decoration: underline;
