@@ -77,6 +77,7 @@
 }
 
 /* === Main === */
+
 .main {
     margin-top: 2%;
     margin-left: 10%;
@@ -98,87 +99,99 @@
     margin: 2%;
 }
 
-/* == 4 Slot Gallery:hoverText == */
+/* == 4 Slot Gallery:hover == */
 
 /* Slot 1 */
 .gallerySlot1Box {
     width: 32vw;
     height: 18vw;
-    background-image: url(../assets/img/Travel/IMG_0269.jpg);
-    align-content: center;
+    background-image: url(../assets/img/188A0866.jpg);
     background-size: cover;
-    color: transparent;
+    padding: 10%;
+}
+
+.gallerySlot1Box a {
+    display: block;
+    font-family: MontserratBold;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
 }
 
 .gallerySlot1Box:hover {
-    font-family: MontserratMedium;
-    color: rgb(0, 0, 0);
-    opacity: 100%;
-    padding: 2%;
-    text-align: center;
-    font-size: 1.1rem;
-    opacity: 40%;
+    padding: 10%;
+    opacity: 80%;
 }
+
 
 /* == Slot 2 */
 .gallerySlot2Box {
     width: 32vw;
     height: 18vw;
-    background-image: url(../assets/img/Landscape/IMG_9397.jpg);
-    align-content: center;
+    background-image: url(../assets/img/Urban/IMG_4323.jpg);
     background-size: cover;
-    color: transparent;
+    padding: 10%;
+}
+
+.gallerySlot2Box a {
+    display: block;
+    font-family: MontserratBold;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
 }
 
 .gallerySlot2Box:hover {
-    font-family: MontserratMedium;
-    color: rgb(0, 0, 0);
-    opacity: 100%;
-    padding: 2%;
-    text-align: center;
-    font-size: 1.1rem;
-    opacity: 40%;
+    padding: 10%;
+    opacity: 80%;
 }
 
 /* Slot 3 */
 .gallerySlot3Box {
     width: 32vw;
     height: 18vw;
-    background-image: url(../assets/img/Landscape/IMG_2807-Edit.jpg);
-    align-content: center;
+    background-image: url(../assets/img/Portrait/IMG_7846.jpg);
     background-size: cover;
-    color: transparent;
+    padding: 10%;
+}
+
+.gallerySlot3Box a {
+    display: block;
+    font-family: MontserratBold;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
 }
 
 .gallerySlot3Box:hover {
-    font-family: MontserratMedium;
-    color: rgb(0, 0, 0);
-    opacity: 100%;
-    padding: 2%;
-    text-align: center;
-    font-size: 1.1rem;
-    opacity: 40%;
+    padding: 10%;
+    opacity: 80%;
 }
 
 /* Slot 4 */
 .gallerySlot4Box {
     width: 32vw;
     height: 18vw;
-    background-image: url(../assets/img/Landscape/IMG_9014-2.jpg);
-    align-content: center;
+    background-image: url(../assets/img/Fashion/IMG_2107.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    color: transparent;
+    padding: 10%;
+}
+
+.gallerySlot4Box a {
+    display: block;
+    font-family: MontserratBold;
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    text-align: center;
 }
 
 .gallerySlot4Box:hover {
-    font-family: MontserratMedium;
-    color: rgb(0, 0, 0);
-    opacity: 100%;
-    padding: 2%;
-    text-align: center;
-    font-size: 1.1rem;
-    opacity: 40%;
+    padding: 10%;
+    opacity: 80%;
 }
 
 /* === 4 Slot Gallery end === */
@@ -197,9 +210,15 @@
 
 
 .footer {
-    margin-top: 2%;
+    margin-top: 5%;
     display: flex;
-    height: 25vh;
-    margin-left: 14%;
+    height: 35vh;
+
     font-size: 2vh;
+    border-top: 1px solid black;
+}
+
+footer p {
+    padding: 2%;
+    margin-left: 14%;
 }
