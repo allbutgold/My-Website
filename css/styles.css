@@ -39,6 +39,11 @@
     font-stretch: condensed;
 }
 
+body {
+    max-width: 1440px;
+}
+
+
 /* === Header === */
 .header {
     background-color: white;
