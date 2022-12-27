@@ -269,7 +269,7 @@
     text-align: center;
     padding: 4%;
     height: 70%;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 .aboutMeBox2 article h3 {
